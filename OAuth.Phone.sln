@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Phone.Api", "OAuth.Phone.Api\OAuth.Phone.Api.csproj", "{F0A2CBF2-6547-45F5-B8C5-7F370DEBEF39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Utils", "0 Utils", "{755E2C1D-7FB7-4CD9-931C-1BCD1B8889FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Entities", "1 Entities", "{C6C26C53-C7E2-4855-B0B4-483326E8037C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 UseCases", "2 UseCases", "{C3900865-F162-4E32-BB6C-67819344EFCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Controllers", "3 Controllers", "{22789CAE-9074-4E44-A9BB-D1DFD382B08E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Frameworks", "4 Frameworks", "{84C78AA1-EF53-4EB2-B78E-C3796FE4958E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Phone.UseCases", "OAuth.Phone.UseCases\OAuth.Phone.UseCases.csproj", "{B9D3F2B3-FEE4-4863-BC07-C31447445EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Phone.Infrastructure.Interfaces", "OAuth.Phone.Infrastructure.Interfaces\OAuth.Phone.Infrastructure.Interfaces.csproj", "{E5094209-6190-4084-B96D-8E58597F2923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Phone.Entities", "OAuth.Phone.Entities\OAuth.Phone.Entities.csproj", "{CF2AB5C3-D997-4062-9F8E-5812BA16F2CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Phone.Infrastructure.Implementation", "OAuth.Phone.Infrastructure.Implementation\OAuth.Phone.Infrastructure.Implementation.csproj", "{7B48D072-C08A-4327-94CA-B4DCB4A98288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Phone.Utils", "OAuth.Phone.Utils\OAuth.Phone.Utils.csproj", "{AA6DC54A-13D5-4CA2-997A-F5937AC0576F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Phone.DataAccess.EF.Postgres", "OAuth.Phone.DataAccess.EF.Postgres\OAuth.Phone.DataAccess.EF.Postgres.csproj", "{B7F64C4C-8EC1-4818-A624-E7F6AB58BB97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Phone.Controllers", "OAuth.Phone.Controllers\OAuth.Phone.Controllers.csproj", "{B5B2D9CE-C1D9-4500-B28E-6D1FBAADEB94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0A2CBF2-6547-45F5-B8C5-7F370DEBEF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A2CBF2-6547-45F5-B8C5-7F370DEBEF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A2CBF2-6547-45F5-B8C5-7F370DEBEF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A2CBF2-6547-45F5-B8C5-7F370DEBEF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D3F2B3-FEE4-4863-BC07-C31447445EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D3F2B3-FEE4-4863-BC07-C31447445EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D3F2B3-FEE4-4863-BC07-C31447445EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D3F2B3-FEE4-4863-BC07-C31447445EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5094209-6190-4084-B96D-8E58597F2923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5094209-6190-4084-B96D-8E58597F2923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5094209-6190-4084-B96D-8E58597F2923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5094209-6190-4084-B96D-8E58597F2923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2AB5C3-D997-4062-9F8E-5812BA16F2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2AB5C3-D997-4062-9F8E-5812BA16F2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2AB5C3-D997-4062-9F8E-5812BA16F2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2AB5C3-D997-4062-9F8E-5812BA16F2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B48D072-C08A-4327-94CA-B4DCB4A98288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B48D072-C08A-4327-94CA-B4DCB4A98288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B48D072-C08A-4327-94CA-B4DCB4A98288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B48D072-C08A-4327-94CA-B4DCB4A98288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6DC54A-13D5-4CA2-997A-F5937AC0576F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6DC54A-13D5-4CA2-997A-F5937AC0576F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6DC54A-13D5-4CA2-997A-F5937AC0576F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6DC54A-13D5-4CA2-997A-F5937AC0576F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F64C4C-8EC1-4818-A624-E7F6AB58BB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F64C4C-8EC1-4818-A624-E7F6AB58BB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F64C4C-8EC1-4818-A624-E7F6AB58BB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F64C4C-8EC1-4818-A624-E7F6AB58BB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B2D9CE-C1D9-4500-B28E-6D1FBAADEB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B2D9CE-C1D9-4500-B28E-6D1FBAADEB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B2D9CE-C1D9-4500-B28E-6D1FBAADEB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B2D9CE-C1D9-4500-B28E-6D1FBAADEB94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9D3F2B3-FEE4-4863-BC07-C31447445EDE} = {C3900865-F162-4E32-BB6C-67819344EFCF}
+		{E5094209-6190-4084-B96D-8E58597F2923} = {C3900865-F162-4E32-BB6C-67819344EFCF}
+		{CF2AB5C3-D997-4062-9F8E-5812BA16F2CA} = {C6C26C53-C7E2-4855-B0B4-483326E8037C}
+		{7B48D072-C08A-4327-94CA-B4DCB4A98288} = {84C78AA1-EF53-4EB2-B78E-C3796FE4958E}
+		{AA6DC54A-13D5-4CA2-997A-F5937AC0576F} = {755E2C1D-7FB7-4CD9-931C-1BCD1B8889FA}
+		{B7F64C4C-8EC1-4818-A624-E7F6AB58BB97} = {84C78AA1-EF53-4EB2-B78E-C3796FE4958E}
+		{B5B2D9CE-C1D9-4500-B28E-6D1FBAADEB94} = {22789CAE-9074-4E44-A9BB-D1DFD382B08E}
+		{F0A2CBF2-6547-45F5-B8C5-7F370DEBEF39} = {84C78AA1-EF53-4EB2-B78E-C3796FE4958E}
+	EndGlobalSection
+EndGlobal

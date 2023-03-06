@@ -1,0 +1,16 @@
+﻿@using OAuth.Phone.Api.Controllers
+@using OAuth.Phone.Controllers.Api
+@model OAuth.Phone.Api.ViewModel.LoginViewModel
+
+@using (Html.BeginForm(nameof(ConfirmationController.SendConfirmationCode), "Confirmation", new { phone = Model.Phone }, FormMethod.Post))
+{
+    @Html.TextBoxFor(x => x.Phone)
+    <input type="submit" value="Отправить код"/>
+}
+
+@using (Html.BeginForm(nameof(LoginController.Index), "Login", new { redirectUrl = Model.RedirectUrl }, FormMethod.Post))
+{
+    @Html.TextBoxFor(x => x.Phone)
+    @Html.TextBoxFor(x => x.Code)
+    <input type="submit" value="Авторизоваться"/>
+}

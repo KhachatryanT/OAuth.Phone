@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="ConfirmationCodeExpired" xml:space="preserve">
+        <value>Истек срок действия кода</value>
+    </data>
+    <data name="ConfirmationCodeErrorsExceeded" xml:space="preserve">
+        <value>Превышено количество неправильного ввода кода</value>
+    </data>
+    <data name="ConfirmationCodeIncorrect" xml:space="preserve">
+        <value>Неправильный код подтверждения</value>
+    </data>
+    <data name="UserIsDisabled" xml:space="preserve">
+        <value>Пользователь заблокирован</value>
+    </data>
+    <data name="RedirectUrlMissing" xml:space="preserve">
+        <value>Отсутствует адрес для перенаправления</value>
+    </data>
+    <data name="RedirectrUrlInvalid" xml:space="preserve">
+        <value>Перенаправление на указанный адрес недопустимо</value>
+    </data>
+    <data name="UserNotFound" xml:space="preserve">
+        <value>Пользователь не найден</value>
+    </data>
+    <data name="InvalidParam" xml:space="preserve">
+        <value>Некорректный пераметр запроса</value>
+    </data>
+    <data name="InvalidParamFormat" xml:space="preserve">
+        <value>Некорректный пераметр запроса "{0}"</value>
+    </data>
+    <data name="PhoneNotFound" xml:space="preserve">
+        <value>Номер не найден</value>
+    </data>
+    <data name="ConfirmationCodeSendWait" xml:space="preserve">
+        <value>Отправка невозможна. Необходимо подождать</value>
+    </data>
+    <data name="AuthenticationCodeNotFoundOrWasUsed" xml:space="preserve">
+        <value>Код авторизации не найден или уже был использован</value>
+    </data>
+    <data name="AuthenticationCodeExpired" xml:space="preserve">
+        <value>Истек срок действия кода</value>
+    </data>
+</root>
